@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "type": "pre-getLocationSeq",
+        "name": "前置用例-获取仓库地址",
+        "url": "/admin/api/logistics/location/search",
+        "method": "POST",
+        "resBody": {"pageNum":1,"pageSize":10,"searchContent":""}
+    },
+    {
+        "id": 2,
+        "type": "pre-addProduct",
+        "name": "前置用例-新增商品",
+        "url": "/admin/api/product/create",
+        "method": "POST",
+        "resBody":
+        {"product":{"media":[{"mediaType":"image","resourceId":"","resourceUrl":"https://d2n979dmt31clo.cloudfront.net/image/store/4211387386/1665628907335/e435a50a10544cf697537ecb34326696.jpg?w=1600&h=1143","alt":"接口自动化-单规格商品-无限库存"}],"videos":[],"defaultTitle":"接口自动化-单规格商品-无限库存","weight":0,"weightUnit":"g","shelves":true,"spuNo":"","price":29999,"payFilter":[],"shippingFilter":[],"tags":[],"sortations":[],"uniqueKeyList":["接口自动化-单规格商品-无限库存"],"inquiry":false,"source":"SHOPLINE","templatePath":"templates/products/detail.json","productType":0},"extraData":{"off":0},"defaultSeo":{"title":"接口自动化-单规格商品-无限库存","desc":""},"skuList":[{"shelves":true,"price":29999,"locationStockList":[{"status":1,"quantity":0,"locationId":"5625413461297603891"}],"weight":0,"weightUnit":"g","skuAttributeValueList":[],"infiniteStock":true,"allowOversold":false,"taxable":true,"requiredShipping":true}],"publishedScopeList":["web"],"onlineTime":-1}
+
+    },
+    {
+        "id": 3,
+        "type": "pre-addCustomer",
+        "name": "前置用例-新增客户",
+        "url": "/admin/api/user/admin/user/create",
+        "method": "POST",
+        "resBody": {"userInfo":{"firstName":"nikitest","lastName":"huang","email":"djashdahdkas@test.com","mobile":"0050923423423434"},"address":null,"tagList":[]}
+    },
+    {
+        "id": 4,
+        "type": "pre-enableCustomStyles",
+        "name": "后置用例-开启自定义样式",
+        "url": "/admin/api/sale/plugin/common/design_maker/admin/code/detail",
+        "method": "POST",
+        "resBody":
+        {"activitySeq":"SL201SAS05976460735730683055","defaultActivityName":"百分比折扣-满2减10%--指定商品","promotionCode":"2R6ZMC901JN4","activityStatus":1,"startTime":1686552780000,"endTime":null,"benefitType":2,"prerequisiteShippingPriceRange":-1,"targetUserType":0,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":2,"isAccumulated":false},"benefit":{"benefitAmount":null,"fixedPrice":null,"discount":90,"offPercent":10,"benefitCount":null,"benefitSeq":"SL201BN5976460736317885623","benefitScopeType":null,"benefitProducts":null},"sequenceNumber":1}],"targetUserInfoList":[],"productConfig":{"discountCodeDisplay":true,"discountCodeDisplayStyle":"3","productDetailConfig":{"discountCodeBgColor":"#F04698","btnBgColor":"#FFE600","textColor":"#FFFFFF","btnTextColor":"#000000","discountCodeTextColor":"#000000","discountBgImg":"","discountBgImg_mobile":"","showDiscountStyleText":"true","showApplyDiscountJump":"false","discountConditionStyleText":"Buy {condition}","discountBenefitStyleText":"{discount} OFF","linkType":"activityPage"}},"landingConfig":{"bannerPicUrl":"","bannerPicUrlMobile":"","bannerActivated":true,"landingPageConfig":{"bannerBgColor":"#FDF7F7","copyBtnBgColor":"#C20000","bannerTextColor":"#C20000","copyBtnTextColor":"#FFFFFF","discountCodeBgColor":"#FFFFFF","discountCodeTextColor":"#C20000","bannerText":"Hurry up! Sales ends in","showCountDown":"false","countDownUnit":"mode1","bannerActivated":"true"}},"settlementConfig":{"discountCodeSettlementDisplay":true}}    }
+
+
+]

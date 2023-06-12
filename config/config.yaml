@@ -1,0 +1,48 @@
+environment:
+    test: .myshoplinestg.com
+    pre: .preview.myshopline.com
+    pro: .myshopline.com
+
+
+handle:
+    test: niki02
+    pre: niki-us
+    pro: niki-us
+
+database:
+    host:
+    port:
+    user:
+    password:
+
+header:
+    cookie: '_BEAMER_USER_ID_whBStDUm30458=b99b65e5-1186-4c59-933d-f8e9e5f6f984; _BEAMER_FIRST_VISIT_whBStDUm30458=2023-02-01T06:40:35.843Z; _BEAMER_FIRST_VISIT_undefined=2023-02-06T06:09:10.546Z; _BEAMER_DATE_whBStDUm30458=2023-05-27T02:03:45.681Z; r_b_ined=1; lp_url={%22landingPageHtml%22:%22https://niki02.myshoplinestg.com/apps/bundle/gift-box?activitySeq=SL201SAS85957576772371881719%22%2C%22occurredAt%22:1685427364882}; n_u=75b3cbcff0811b3ffa6cf8491dcb5290; localization=US; _tracking_consent=%7B%22con%22%3A%7B%22GDPR%22%3A%22%22%7D%2C%22v%22%3A%221.0%22%2C%22lim%22%3A%5B%5D%2C%22reg%22%3A%22%22%7D; tsao=1c67f1db-f02b-4826-9ad5-431c7f64062d#83110797f9e197ba; tsui=4b9da751-a20c-46eb-98b4-ff5202625293#a061b2c6d603d90d; a_ste=krobHo7p7fCJvjzWRX1BOsY1fh54BIIH77d9PSnguKm01UjUVhSQaMCYXlAAsFoNb8aFMObih5h5l/EAByfhmg==; intercom-device-id-fdjt8drx=2a786667-8fc0-499d-a714-8f1e3726491d; intercom-session-fdjt8drx=L0ZIQVpueVorZ2lXNWhKR0dKUXh4dDZxQllUenJETk5MSTUrdTRiSjZoMFJRSW4zTmtaTWZiN0tkUGV4Z0JPQy0tTXduRXl6WVN2c2djU1ZXSnJ2VG5rQT09--2078ef07ce889a58692b6701f312f41bf2e6580f; googtrans=/auto/en; a_osudb_appid=1163336839; a_osudb_csrf=#C01#SID0000076BC2cfSYeWwt7ol9DjF3xmTHR6iWmAS/ecYrK308Hgod7MC/yvvgIjvZ2JA/2Ywx8mTh/Gchb8SB6wY3fUb0rfBPEyvKEFjG2c5OtFIZrDg1FpFN2veqpbXfIKosx8BVPCxcF213aLepdmH063DvcbuxBriFrKmmGpcvTDaGzYvMy; a_cstgc=1163336839_1_4211387386_1686552710622bDq0RY; a_osudb_uid=4211387386; a_osudb_oar=#01#SID0000076BLniFPhps7GMEp9zw9XLDlodm6c5PHQK4MncTyR/hK42Bf9gx/zEW0dQz/cSTImgdWQhQ5bnvkKgL3izmxBphpDMGiYDtrt0R2wy6gTs4Qlp97RrnHUIrreRg32S68CgRTkX3r0eYG3X2MsRILuhiw==; a_osudb_subappid=1; a_lce=1687157510865; r_b_in=1; _BEAMER_FILTER_BY_URL_whBStDUm30458=false; a_lang=zh-hans-cn; a_dhch=niki02; ai_kf_language=zh-hans-cn'
+
+
+filePath:
+    discountCodePath: testData/DiscountCodeActivity.json
+    preCasePath: testData/preCase.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
