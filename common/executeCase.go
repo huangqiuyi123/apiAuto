@@ -157,9 +157,8 @@ func ExecuteDiscountActivity(environment string) {
 					newBody1, _ := sjson.Set(string(jsonData), "targetUserInfoList.0.memberId", memberId)
 
 					if method == "POST" {
-						response, _ := Post(url, newBody1, nil, nil)
-						activitySeq := response["data"].(map[string]interface{})["activitySeq"].(string)
-						EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+						Post(url, newBody1, nil, nil)
+
 					}
 
 				}
@@ -178,9 +177,8 @@ func ExecuteDiscountActivity(environment string) {
 					newBody3, _ := sjson.Set(newBody2, "effectScopeValueList.0.skuList.0.skuSeq", sku)
 
 					if method == "POST" {
-						response, _ := Post(url, newBody3, nil, nil)
-						activitySeq := response["data"].(map[string]interface{})["activitySeq"].(string)
-						EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+						Post(url, newBody3, nil, nil)
+
 					}
 
 				}
@@ -203,9 +201,7 @@ func ExecuteDiscountActivity(environment string) {
 					newBody4, _ := sjson.Set(newBody3, "effectScopeValueList.0.skuList.0.skuSeq", sku)
 
 					if method == "POST" {
-						response, _ := Post(url, newBody4, nil, nil)
-						activitySeq := response["data"].(map[string]interface{})["activitySeq"].(string)
-						EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+						Post(url, newBody4, nil, nil)
 					}
 
 				}
@@ -226,9 +222,8 @@ func ExecuteDiscountActivity(environment string) {
 					newBody6, _ := sjson.Set(newBody5, "effectScopeValueList.0.skuList.0.skuSeq", sku)
 
 					if method == "POST" {
-						response, _ := Post(url, newBody6, nil, nil)
-						activitySeq := response["data"].(map[string]interface{})["activitySeq"].(string)
-						EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+						Post(url, newBody6, nil, nil)
+
 					}
 
 				}
