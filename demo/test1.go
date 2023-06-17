@@ -9,7 +9,7 @@ package main
 //)
 //
 //func main() {
-//	f, _ := os.Open("testData/DiscountCodeActivity.json")
+//	f, _ := os.Open("testData/Activity.json")
 //	doc, _ := jsonquery.Parse(f)
 //
 //	// 遍厉json结构

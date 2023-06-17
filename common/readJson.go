@@ -11,12 +11,13 @@ import (
 
 // Params 定义结构体，和json文件的字段一致
 type Params struct {
-	ID      int         `json:"id"`
-	Type    string      `json:"type"`
-	Name    string      `json:"name"`
-	Url     string      `json:"url"`
-	Method  string      `json:"method"`
-	ResBody interface{} `json:"resBody"`
+	ID           int         `json:"id"`
+	Type         string      `json:"type"`
+	ActivityType string      `json:"activityType"`
+	Name         string      `json:"name"`
+	Url          string      `json:"url"`
+	Method       string      `json:"method"`
+	ResBody      interface{} `json:"resBody"`
 }
 
 var fileLocker sync.Mutex //config file locker

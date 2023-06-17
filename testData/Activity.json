@@ -1,0 +1,1519 @@
+[
+    {
+        "id": 1,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "百分比折扣-无门槛减5%",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {
+            "seoHandleList":[
+                "百分比折扣-无门槛减5-"
+            ],
+            "benefitType":2,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":-1,
+                        "minThreshold":0
+                    },
+                    "benefit":{
+                        "offPercent":5
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "benefitEventType":-1,
+            "effectScopeType":0,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1683447540000,
+            "overlayAutoDiscounts":false,
+            "overlayDiscountCode":false,
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"百分比折扣-无门槛减5%\",\"handleList\":[\"百分比折扣-无门槛减5-\"],\"url\":\"百分比折扣-无门槛减5-\"}",
+            "promotionCodes":[
+                "K9APRYYYHEM0"
+            ],
+            "defaultActivityName":"百分比折扣-无门槛减5%",
+            "userLimitedType":0,
+            "orderUseLimit":true
+        }
+    },
+    {
+        "id": 2,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "百分比折扣-满1000减10",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {
+            "seoHandleList":[
+                "百分比折扣-满1000减10-"
+            ],
+            "benefitType":2,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":0,
+                        "minThreshold":100000
+                    },
+                    "benefit":{
+                        "offPercent":10
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "benefitEventType":0,
+            "effectScopeType":0,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1683470820000,
+            "overlayAutoDiscounts":false,
+            "overlayDiscountCode":false,
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"百分比折扣-满1000减10%\",\"handleList\":[\"百分比折扣-满1000减10-\"],\"url\":\"百分比折扣-满1000减10-\"}",
+            "promotionCodes":[
+                "6E1R7H89S88F"
+            ],
+            "defaultActivityName":"百分比折扣-满1000减10%",
+            "userLimitedType":0,
+            "orderUseLimit":true
+        }
+
+
+    },
+    {
+        "id": 3,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "百分比折扣-满3件减12%",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {
+            "seoHandleList":[
+                "百分比折扣-满3件减12-"
+            ],
+            "benefitType":2,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":1,
+                        "minThreshold":3
+                    },
+                    "benefit":{
+                        "offPercent":12
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "benefitEventType":1,
+            "effectScopeType":0,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1683471000000,
+            "overlayAutoDiscounts":false,
+            "overlayDiscountCode":false,
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"百分比折扣-满3件减12%\",\"handleList\":[\"百分比折扣-满3件减12-\"],\"url\":\"百分比折扣-满3件减12-\"}",
+            "promotionCodes":[
+                "0IS7WGLZQMEU"
+            ],
+            "defaultActivityName":"百分比折扣-满3件减12%",
+            "userLimitedType":0,
+            "orderUseLimit":true
+        }
+    },
+    {
+        "id": 4,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金額-无门槛减5",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {"seoHandleList":["固定金額-无门槛减5"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":-1,"minThreshold":0},"benefit":{"benefitAmount":500},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":-1,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1683471240000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金額-无门槛减5\",\"handleList\":[\"固定金額-无门槛减5\"],\"url\":\"固定金額-无门槛减5\"}","promotionCodes":["64VV0QQGMJP2"],"defaultActivityName":"固定金額-无门槛减5","userLimitedType":0,"orderUseLimit":true}
+    },
+    {
+        "id": 5,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金額-满800减100",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {"seoHandleList":["固定金額-满800减100"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":0,"minThreshold":80000},"benefit":{"benefitAmount":10000},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1683471300000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金額-满800减100\",\"handleList\":[\"固定金額-满800减100\"],\"url\":\"固定金額-满800减100\"}","promotionCodes":["GDY6V1U3ME87"],"defaultActivityName":"固定金額-满800减100","userLimitedType":0,"orderUseLimit":true}
+    },
+    {
+        "id": 6,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金額-满3件减10",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {"seoHandleList":["固定金額-满3件减10"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"benefitAmount":2000},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":1,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1683471420000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金額-满3件减10\",\"handleList\":[\"固定金額-满3件减10\"],\"url\":\"固定金額-满3件减10\"}","promotionCodes":["OLDZF3J1TCZ6"],"defaultActivityName":"固定金額-满3件减10","userLimitedType":0,"orderUseLimit":true}
+    },
+    {
+        "id": 7,
+        "type": "specifyCustomer",
+        "activityType": "coupon",
+        "name": "百分比折扣-满3000减20%-指定客户分组",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+            "seoHandleList": [
+                "百分比折扣-满3000减20--指定客户"
+            ],
+            "benefitType": 2,
+            "benefitConditions": [
+                {
+                    "benefitEvent": {
+                        "type": 0,
+                        "minThreshold": 300000
+                    },
+                    "benefit": {
+                        "offPercent": 20
+                    },
+                    "sequenceNumber": 1,
+                    "id": "BenefitGradient1"
+                }
+            ],
+            "benefitEventType": 0,
+            "effectScopeType": 0,
+            "targetUserType": 5,
+            "endTime": null,
+            "startTime": 1685333640000,
+            "overlayAutoDiscounts": false,
+            "overlayDiscountCode": false,
+            "versionFlag": true,
+            "activitySeq": "",
+            "version": 1,
+            "defaultSeo": "{\"title\":\"百分比折扣-满3000减20%-指定客户\",\"handleList\":[\"百分比折扣-满3000减20--指定客户\"],\"url\":\"百分比折扣-满3000减20--指定客户\"}",
+            "promotionCodes": [
+                "DCJDTXKITBV1"
+            ],
+            "defaultActivityName": "百分比折扣-满3000减20%-指定客户",
+            "userLimitedType": 0,
+            "targetUserInfoList": [
+                {
+                    "memberId": "2005448473"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "type": "specifyProduct",
+        "activityType": "coupon",
+        "name": "百分比折扣-满2减10--指定商品",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["百分比折扣-满2减10--指定商品"],"benefitType":2,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"offPercent":10},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":1,"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1686548640000,"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1678853009947","merchantId":"4211387386","spuSeq":"16059720593553862250140603","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":29999,"productMinPrice":29999,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"tagList":[],"skuSize":1,"uniqueKey":"单规格商品-无限库存","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686290585509,"updateTime":1686290585509,"inquiry":false,"skuList":[{"skuSeq":"18059720593558559870680603","price":29999,"stock":2147483647,"allowOversold":false,"infinite":true}],"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"单规格商品-无限库存","imageList":[],"defaultTitle":"单规格商品-无限库存","images":[],"productId":"16059720593553862250140603"}],"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"百分比折扣-满2减10%-指定商品\",\"handleList\":[\"百分比折扣-满2减10--指定商品\"],\"url\":\"百分比折扣-满2减10--指定商品\"}","promotionCodes":["WGKXO53NRGNT"],"defaultActivityName":"百分比折扣-满2减10%-指定商品","userLimitedType":0}
+    },
+    {
+        "id": 9,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金额-无门槛减10",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["固定金额-无门槛减10"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":-1,"minThreshold":0},"benefit":{"benefitAmount":1000},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":-1,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1686576600000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金额-无门槛减10\",\"handleList\":[\"固定金额-无门槛减10\"],\"url\":\"固定金额-无门槛减10\"}","promotionCodes":["9YR07LOKX4I7"],"defaultActivityName":"固定金额-无门槛减10","userLimitedType":0}
+    },
+    {
+        "id": 10,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金额-满999减100",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["固定金额-满999减100"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":0,"minThreshold":99900},"benefit":{"benefitAmount":10000},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1686576720000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金额-满999减100\",\"handleList\":[\"固定金额-满999减100\"],\"url\":\"固定金额-满999减100\"}","promotionCodes":["HAK3OSBYJYGN"],"defaultActivityName":"固定金额-满999减100","userLimitedType":0}
+    },
+    {
+        "id": 11,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "固定金额-满3件减20",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["固定金额-满3件减20"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"benefitAmount":2000},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":1,"effectScopeType":0,"targetUserType":0,"endTime":null,"startTime":1686576840000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金额-满3件减20\",\"handleList\":[\"固定金额-满3件减20\"],\"url\":\"固定金额-满3件减20\"}","promotionCodes":["NTJDBZIR9DEY"],"defaultActivityName":"固定金额-满3件减20","userLimitedType":0}
+    },
+    {
+        "id": 12,
+        "type": "specifyProductAndCustomer",
+        "activityType": "coupon",
+        "name": "固定金额-满100减15-指定商品、指定客户",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["固定金额-满100减15-指定商品、指定客户"],"benefitType":1,"benefitConditions":[{"benefitEvent":{"type":0,"minThreshold":10000},"benefit":{"benefitAmount":1500},"sequenceNumber":1,"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":2,"targetUserType":5,"endTime":null,"startTime":1686576960000,"overlayAutoDiscounts":false,"overlayDiscountCode":false,"effectScopeValueList":[{"storeId":"1678861295829","merchantId":"2005188193","spuSeq":"16058474198994004807063962","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":2000,"productMaxPrice":1500,"productMinPrice":1500,"originMaxPrice":2000,"originMinPrice":2000,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":["12258474198867672369763962"],"sortations":[{"sortationId":null,"sortationName":null,"sortationType":null}],"brandName":"NIKe","version":"16358474289392161017383962","tagList":["夏季 鞋子"],"skuSize":1,"uniqueKey":"niki测试商品1-单sku","stockStatus":0,"allowOversold":false,"sold":15,"createTime":1678861495019,"updateTime":1678862033822,"inquiry":false,"skuList":[{"skuSeq":"18058474198999037971923962","price":1500,"originPrice":2000,"itemNo":"白色","itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":34,"addToCartCount":49,"conversionRate30d":20000,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":null,"title":"Niki测试商品1-单SKU","imageList":["https://img-preview-va.myshopline.com/image/store/2005188193/1678861295829/3e1075653422421781159d074d52ef25.png?w=400&h=400"],"defaultTitle":"Niki测试商品1-单SKU","images":["https://img-preview-va.myshopline.com/image/store/2005188193/1678861295829/3e1075653422421781159d074d52ef25.png?w=400&h=400"],"productId":"16058474198994004807063962"}],"orderUseLimit":true,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"固定金额-满100减15-指定商品、指定客户\",\"handleList\":[\"固定金额-满100减15-指定商品、指定客户\"],\"url\":\"固定金额-满100减15-指定商品、指定客户\"}","promotionCodes":["R63HIMUD1G24"],"defaultActivityName":"固定金额-满100减15-指定商品、指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2258836223"}]}    },
+    {
+        "id": 13,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "免运费-无门槛",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody": {
+            "seoHandleList": [
+                "免运费-无门槛"
+            ],
+            "benefitType": 3,
+            "benefitEventType": -1,
+            "benefitConditions": [
+                {
+                    "benefitEvent": {
+                        "type": -1,
+                        "minThreshold": 0
+                    },
+                    "benefit": {},
+                    "sequenceNumber": 1,
+                    "id": "BenefitGradient1"
+                }
+            ],
+            "effectScopeType": 0,
+            "entitledCountryTargetSelection": "all",
+            "targetUserType": 0,
+            "endTime": null,
+            "startTime": 1686977220000,
+            "versionFlag": true,
+            "activitySeq": "",
+            "version": 1,
+            "defaultSeo": "{\"title\":\"免运费-无门槛\",\"handleList\":[\"免运费-无门槛\"],\"url\":\"免运费-无门槛\"}",
+            "promotionCodes": [
+                "S5SW6DN9RTTQ"
+            ],
+            "defaultActivityName": "免运费-无门槛",
+            "userLimitedType": 0
+        }
+    },
+    {
+        "id": 14,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "免运费-满100免邮-设置免运费金额上限10",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["免运费-满100免邮-设置免运费金额上限10"],"benefitType":3,"benefitEventType":0,"benefitConditions":[{"benefitEvent":{"type":0,"minThreshold":10000},"benefit":{},"sequenceNumber":1,"id":"BenefitGradient1"}],"effectScopeType":0,"entitledCountryTargetSelection":"all","prerequisiteShippingPriceRange":1000,"targetUserType":0,"endTime":null,"startTime":1686977400000,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"免运费-满100免邮，设置免运费金额上限10\",\"handleList\":[\"免运费-满100免邮-设置免运费金额上限10\"],\"url\":\"免运费-满100免邮-设置免运费金额上限10\"}","promotionCodes":["IB872A6V11TE"],"defaultActivityName":"免运费-满100免邮，设置免运费金额上限10","userLimitedType":0}    },
+    {
+        "id": 15,
+        "type": "all",
+        "activityType": "coupon",
+        "name": "免运费-满3件免邮-指定中国国家地区",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["免运费-满3件免邮-指定中国国家地区"],"benefitType":3,"benefitEventType":1,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":3},"benefit":{},"sequenceNumber":1,"id":"BenefitGradient1"}],"effectScopeType":0,"entitledCountryTargetSelection":"entitled","targetUserType":0,"endTime":null,"startTime":1686977820000,"freeShippingAreaCodeList":[{"countryCode":"CN"},{"countryCode":"HK"},{"countryCode":"MO"}],"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"免运费-满3件免邮，指定中国国家地区\",\"handleList\":[\"免运费-满3件免邮-指定中国国家地区\"],\"url\":\"免运费-满3件免邮-指定中国国家地区\"}","promotionCodes":["O5YDFUY5EAAB"],"defaultActivityName":"免运费-满3件免邮，指定中国国家地区","userLimitedType":0}
+    },
+    {
+        "id": 16,
+        "type": "specifyCustomer",
+        "activityType": "coupon",
+        "name": "免运费-满2件免邮-指定客户",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {"seoHandleList":["免运费-满2件免邮-指定客户"],"benefitType":3,"benefitEventType":1,"benefitConditions":[{"benefitEvent":{"type":1,"minThreshold":2},"benefit":{},"sequenceNumber":1,"id":"BenefitGradient1"}],"effectScopeType":0,"entitledCountryTargetSelection":"all","targetUserType":5,"endTime":null,"startTime":1686978060000,"versionFlag":true,"activitySeq":"","version":1,"defaultSeo":"{\"title\":\"免运费-满2件免邮-指定客户\",\"handleList\":[\"免运费-满2件免邮-指定客户\"],\"url\":\"免运费-满2件免邮-指定客户\"}","promotionCodes":["YS5UX9N5KKJH"],"defaultActivityName":"免运费-满2件免邮-指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}]}
+    },
+    {
+        "id": 17,
+        "type": "buy X get Y free",
+        "activityType": "coupon",
+        "name": "买X送Y-买1送1",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+            "seoHandleList":[
+                "买X送Y-买1送1"
+            ],
+            "benefitType":12,
+            "benefitEventType":1,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":1,
+                        "minThreshold":1
+                    },
+                    "benefit":{
+                        "benefitScopeType":2,
+                        "benefitCount":1,
+                        "benefitProducts":[
+                            {
+                                "storeId":"1666933563635",
+                                "merchantId":"2002875912",
+                                "spuSeq":"16059797640656597840542330",
+                                "shelves":true,
+                                "status":1,
+                                "risk":0,
+                                "productPrice":0,
+                                "originPrice":-1,
+                                "productMaxPrice":50000,
+                                "productMinPrice":50000,
+                                "originMaxPrice":-1,
+                                "originMinPrice":-1,
+                                "currencyCode":"USD",
+                                "currencySymbol":"$",
+                                "currencyDigits":2,
+                                "stock":2147483647,
+                                "infiniteStock":true,
+                                "trackerStock":false,
+                                "productType":0,
+                                "customType":"NORMAL",
+                                "sortationIds":[
+
+                                ],
+                                "sortations":[
+
+                                ],
+                                "brandName":null,
+                                "version":null,
+                                "tagList":[
+
+                                ],
+                                "skuSize":1,
+                                "uniqueKey":"auto-crate-product-on-sale-1686749821856",
+                                "stockStatus":0,
+                                "allowOversold":false,
+                                "sold":0,
+                                "createTime":1686749822025,
+                                "updateTime":1686749822103,
+                                "inquiry":false,
+                                "skuList":[
+                                    {
+                                        "skuSeq":"18059797640661295461082330",
+                                        "price":50000,
+                                        "originPrice":null,
+                                        "itemNo":null,
+                                        "itemNoHighLight":null,
+                                        "editDistance":null,
+                                        "attributes":null,
+                                        "stock":2147483647,
+                                        "allowOversold":false,
+                                        "infinite":true
+                                    }
+                                ],
+                                "defaultHighLight":null,
+                                "storeHighLight":null,
+                                "itemNoHLNum":null,
+                                "defaultTitleHighLight":null,
+                                "tradeLogisticsTag":{
+                                    "groupId":"1",
+                                    "groupType":"1"
+                                },
+                                "skuAttributeMap":{
+
+                                },
+                                "visitCount":0,
+                                "addToCartCount":0,
+                                "conversionRate30d":0,
+                                "pickupIdList":[
+
+                                ],
+                                "publishedScopeList":[
+                                    "web"
+                                ],
+                                "onlineTime":0,
+                                "templatePath":"templates/products/detail.json",
+                                "title":"auto crate product-on sale-1686749821856",
+                                "imageList":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "defaultTitle":"auto crate product-on sale-1686749821856",
+                                "images":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "productId":"16059797640656597840542330"
+                            }
+                        ],
+                        "offPercent":100,
+                        "discount":0,
+                        "benefitAmount":null,
+                        "benefitValueType":null
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "effectScopeType":2,
+            "effectScopeValueList":[
+                {
+                    "storeId":"1666933563635",
+                    "merchantId":"2002875912",
+                    "spuSeq":"16059797640951876842302330",
+                    "shelves":true,
+                    "status":1,
+                    "risk":0,
+                    "productPrice":0,
+                    "originPrice":-1,
+                    "productMaxPrice":50000,
+                    "productMinPrice":50000,
+                    "originMaxPrice":-1,
+                    "originMinPrice":-1,
+                    "currencyCode":"USD",
+                    "currencySymbol":"$",
+                    "currencyDigits":2,
+                    "stock":2147483647,
+                    "infiniteStock":true,
+                    "trackerStock":false,
+                    "productType":0,
+                    "customType":"NORMAL",
+                    "sortationIds":[
+
+                    ],
+                    "sortations":[
+
+                    ],
+                    "brandName":null,
+                    "version":null,
+                    "tagList":[
+
+                    ],
+                    "skuSize":1,
+                    "uniqueKey":"auto-crate-product-on-sale-1686749823619",
+                    "stockStatus":0,
+                    "allowOversold":false,
+                    "sold":0,
+                    "createTime":1686749823784,
+                    "updateTime":1686749823860,
+                    "inquiry":false,
+                    "skuList":[
+                        {
+                            "skuSeq":"18059797640956238918522330",
+                            "price":50000,
+                            "originPrice":null,
+                            "itemNo":null,
+                            "itemNoHighLight":null,
+                            "editDistance":null,
+                            "attributes":null,
+                            "stock":2147483647,
+                            "allowOversold":false,
+                            "infinite":true
+                        }
+                    ],
+                    "defaultHighLight":null,
+                    "storeHighLight":null,
+                    "itemNoHLNum":null,
+                    "defaultTitleHighLight":null,
+                    "tradeLogisticsTag":{
+                        "groupId":"1",
+                        "groupType":"1"
+                    },
+                    "skuAttributeMap":{
+
+                    },
+                    "visitCount":0,
+                    "addToCartCount":0,
+                    "conversionRate30d":0,
+                    "pickupIdList":[
+
+                    ],
+                    "publishedScopeList":[
+                        "web"
+                    ],
+                    "onlineTime":0,
+                    "templatePath":"templates/products/detail.json",
+                    "title":"auto crate product-on sale-1686749823619",
+                    "imageList":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "defaultTitle":"auto crate product-on sale-1686749823619",
+                    "images":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "productId":"16059797640951876842302330"
+                }
+            ],
+            "maxAccumulateNum":-1,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1686980220000,
+            "advancedOverlaySetting":{
+                "shippingOverlayList":[
+                    {
+                        "benefitType":3,
+                        "applyType":1,
+                        "overlay":false
+                    },
+                    {
+                        "benefitType":3,
+                        "applyType":0,
+                        "overlay":false
+                    }
+                ]
+            },
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"买X送Y：买1送1\",\"handleList\":[\"买X送Y-买1送1\"],\"url\":\"买X送Y-买1送1\"}",
+            "promotionCodes":[
+                "T29FD7KT38IH"
+            ],
+            "defaultActivityName":"买X送Y：买1送1",
+            "userLimitedType":0
+        }
+    },
+    {
+        "id": 18,
+        "type": "buy X get Y free",
+        "activityType": "coupon",
+        "name": "买X送Y-满1000减免30",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+        "seoHandleList":[
+            "买X送Y-满1000减免30-"
+        ],
+        "benefitType":12,
+        "benefitEventType":0,
+        "benefitConditions":[
+            {
+                "benefitEvent":{
+                    "type":0,
+                    "minThreshold":100000
+                },
+                "benefit":{
+                    "benefitScopeType":2,
+                    "benefitCount":2,
+                    "benefitProducts":[
+                        {
+                            "storeId":"1666933563635",
+                            "merchantId":"2002875912",
+                            "spuSeq":"16059797640421045727742330",
+                            "shelves":true,
+                            "status":1,
+                            "risk":0,
+                            "productPrice":0,
+                            "originPrice":-1,
+                            "productMaxPrice":50000,
+                            "productMinPrice":50000,
+                            "originMaxPrice":-1,
+                            "originMinPrice":-1,
+                            "currencyCode":"USD",
+                            "currencySymbol":"$",
+                            "currencyDigits":2,
+                            "stock":2147483647,
+                            "infiniteStock":true,
+                            "trackerStock":false,
+                            "productType":0,
+                            "customType":"NORMAL",
+                            "sortationIds":[
+
+                            ],
+                            "sortations":[
+
+                            ],
+                            "brandName":null,
+                            "version":null,
+                            "tagList":[
+
+                            ],
+                            "skuSize":1,
+                            "uniqueKey":"auto-crate-product-on-sale-1686749820468",
+                            "stockStatus":0,
+                            "allowOversold":false,
+                            "sold":0,
+                            "createTime":1686749820621,
+                            "updateTime":1686749832933,
+                            "inquiry":false,
+                            "skuList":[
+                                {
+                                    "skuSeq":"18059797640425407803962330",
+                                    "price":50000,
+                                    "originPrice":null,
+                                    "itemNo":null,
+                                    "itemNoHighLight":null,
+                                    "editDistance":null,
+                                    "attributes":null,
+                                    "stock":2147483647,
+                                    "allowOversold":false,
+                                    "infinite":true
+                                }
+                            ],
+                            "defaultHighLight":null,
+                            "storeHighLight":null,
+                            "itemNoHLNum":null,
+                            "defaultTitleHighLight":null,
+                            "tradeLogisticsTag":{
+                                "groupId":"1",
+                                "groupType":"1"
+                            },
+                            "skuAttributeMap":{
+
+                            },
+                            "visitCount":0,
+                            "addToCartCount":0,
+                            "conversionRate30d":0,
+                            "pickupIdList":[
+
+                            ],
+                            "publishedScopeList":[
+                                "web"
+                            ],
+                            "onlineTime":0,
+                            "templatePath":"templates/products/detail.json",
+                            "title":"auto crate product-on sale-1686749820468",
+                            "imageList":[
+                                "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                            ],
+                            "defaultTitle":"auto crate product-on sale-1686749820468",
+                            "images":[
+                                "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                            ],
+                            "productId":"16059797640421045727742330"
+                        }
+                    ],
+                    "offPercent":30
+                },
+                "sequenceNumber":1,
+                "id":"BenefitGradient1"
+            }
+        ],
+        "effectScopeType":2,
+        "effectScopeValueList":[
+            {
+                "storeId":"1666933563635",
+                "merchantId":"2002875912",
+                "spuSeq":"16059797640951876842302330",
+                "shelves":true,
+                "status":1,
+                "risk":0,
+                "productPrice":0,
+                "originPrice":-1,
+                "productMaxPrice":50000,
+                "productMinPrice":50000,
+                "originMaxPrice":-1,
+                "originMinPrice":-1,
+                "currencyCode":"USD",
+                "currencySymbol":"$",
+                "currencyDigits":2,
+                "stock":2147483647,
+                "infiniteStock":true,
+                "trackerStock":false,
+                "productType":0,
+                "customType":"NORMAL",
+                "sortationIds":[
+
+                ],
+                "sortations":[
+
+                ],
+                "brandName":null,
+                "version":null,
+                "tagList":[
+
+                ],
+                "skuSize":1,
+                "uniqueKey":"auto-crate-product-on-sale-1686749823619",
+                "stockStatus":0,
+                "allowOversold":false,
+                "sold":0,
+                "createTime":1686749823784,
+                "updateTime":1686749823860,
+                "inquiry":false,
+                "skuList":[
+                    {
+                        "skuSeq":"18059797640956238918522330",
+                        "price":50000,
+                        "originPrice":null,
+                        "itemNo":null,
+                        "itemNoHighLight":null,
+                        "editDistance":null,
+                        "attributes":null,
+                        "stock":2147483647,
+                        "allowOversold":false,
+                        "infinite":true
+                    }
+                ],
+                "defaultHighLight":null,
+                "storeHighLight":null,
+                "itemNoHLNum":null,
+                "defaultTitleHighLight":null,
+                "tradeLogisticsTag":{
+                    "groupId":"1",
+                    "groupType":"1"
+                },
+                "skuAttributeMap":{
+
+                },
+                "visitCount":0,
+                "addToCartCount":0,
+                "conversionRate30d":0,
+                "pickupIdList":[
+
+                ],
+                "publishedScopeList":[
+                    "web"
+                ],
+                "onlineTime":0,
+                "templatePath":"templates/products/detail.json",
+                "title":"auto crate product-on sale-1686749823619",
+                "imageList":[
+                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                ],
+                "defaultTitle":"auto crate product-on sale-1686749823619",
+                "images":[
+                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                ],
+                "productId":"16059797640951876842302330"
+            }
+        ],
+        "maxAccumulateNum":-1,
+        "targetUserType":0,
+        "endTime":null,
+        "startTime":1686995880000,
+        "advancedOverlaySetting":{
+            "shippingOverlayList":[
+                {
+                    "benefitType":3,
+                    "applyType":1,
+                    "overlay":false
+                },
+                {
+                    "benefitType":3,
+                    "applyType":0,
+                    "overlay":false
+                }
+            ]
+        },
+        "versionFlag":true,
+        "activitySeq":"",
+        "version":1,
+        "defaultSeo":"{\"title\":\"买X送Y：满1000减免30%\",\"handleList\":[\"买X送Y-满1000减免30-\"],\"url\":\"买X送Y-满1000减免30-\"}",
+        "promotionCodes":[
+            "7TYQUGJU0A93"
+        ],
+        "defaultActivityName":"买X送Y：满1000减免30%",
+        "userLimitedType":0
+    }
+    },
+    {
+        "id": 19,
+        "type": "buy X get Y free",
+        "activityType": "coupon",
+        "name": "买X送Y-满500减免金额50",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+            "seoHandleList":[
+                "买X送Y-满500减免金额50"
+            ],
+            "benefitType":12,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":0,
+                        "minThreshold":50000
+                    },
+                    "benefit":{
+                        "benefitScopeType":2,
+                        "benefitCount":2,
+                        "benefitProducts":[
+                            {
+                                "storeId":"1666933563635",
+                                "merchantId":"2002875912",
+                                "spuSeq":"16059797640421045727742330",
+                                "shelves":true,
+                                "status":1,
+                                "risk":0,
+                                "productPrice":0,
+                                "originPrice":-1,
+                                "productMaxPrice":50000,
+                                "productMinPrice":50000,
+                                "originMaxPrice":-1,
+                                "originMinPrice":-1,
+                                "currencyCode":"USD",
+                                "currencySymbol":"$",
+                                "currencyDigits":2,
+                                "stock":2147483647,
+                                "infiniteStock":true,
+                                "trackerStock":false,
+                                "productType":0,
+                                "customType":"NORMAL",
+                                "sortationIds":[
+
+                                ],
+                                "sortations":[
+
+                                ],
+                                "brandName":null,
+                                "version":null,
+                                "tagList":[
+
+                                ],
+                                "skuSize":1,
+                                "uniqueKey":"auto-crate-product-on-sale-1686749820468",
+                                "stockStatus":0,
+                                "allowOversold":false,
+                                "sold":0,
+                                "createTime":1686749820621,
+                                "updateTime":1686749832933,
+                                "inquiry":false,
+                                "skuList":[
+                                    {
+                                        "skuSeq":"18059797640425407803962330",
+                                        "price":50000,
+                                        "originPrice":null,
+                                        "itemNo":null,
+                                        "itemNoHighLight":null,
+                                        "editDistance":null,
+                                        "attributes":null,
+                                        "stock":2147483647,
+                                        "allowOversold":false,
+                                        "infinite":true
+                                    }
+                                ],
+                                "defaultHighLight":null,
+                                "storeHighLight":null,
+                                "itemNoHLNum":null,
+                                "defaultTitleHighLight":null,
+                                "tradeLogisticsTag":{
+                                    "groupId":"1",
+                                    "groupType":"1"
+                                },
+                                "skuAttributeMap":{
+
+                                },
+                                "visitCount":0,
+                                "addToCartCount":0,
+                                "conversionRate30d":0,
+                                "pickupIdList":[
+
+                                ],
+                                "publishedScopeList":[
+                                    "web"
+                                ],
+                                "onlineTime":0,
+                                "templatePath":"templates/products/detail.json",
+                                "title":"auto crate product-on sale-1686749820468",
+                                "imageList":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "defaultTitle":"auto crate product-on sale-1686749820468",
+                                "images":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "productId":"16059797640421045727742330"
+                            }
+                        ],
+                        "benefitValueType":1,
+                        "offPercent":null,
+                        "discount":null,
+                        "benefitAmount":5000
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "benefitEventType":0,
+            "effectScopeType":2,
+            "effectScopeValueList":[
+                {
+                    "storeId":"1666933563635",
+                    "merchantId":"2002875912",
+                    "spuSeq":"16059797640951876842302330",
+                    "shelves":true,
+                    "status":1,
+                    "risk":0,
+                    "productPrice":0,
+                    "originPrice":-1,
+                    "productMaxPrice":50000,
+                    "productMinPrice":50000,
+                    "originMaxPrice":-1,
+                    "originMinPrice":-1,
+                    "currencyCode":"USD",
+                    "currencySymbol":"$",
+                    "currencyDigits":2,
+                    "stock":2147483647,
+                    "infiniteStock":true,
+                    "trackerStock":false,
+                    "productType":0,
+                    "customType":"NORMAL",
+                    "sortationIds":[
+
+                    ],
+                    "sortations":[
+
+                    ],
+                    "brandName":null,
+                    "version":null,
+                    "tagList":[
+
+                    ],
+                    "skuSize":1,
+                    "uniqueKey":"auto-crate-product-on-sale-1686749823619",
+                    "stockStatus":0,
+                    "allowOversold":false,
+                    "sold":0,
+                    "createTime":1686749823784,
+                    "updateTime":1686749823860,
+                    "inquiry":false,
+                    "skuList":[
+                        {
+                            "skuSeq":"18059797640956238918522330",
+                            "price":50000,
+                            "originPrice":null,
+                            "itemNo":null,
+                            "itemNoHighLight":null,
+                            "editDistance":null,
+                            "attributes":null,
+                            "stock":2147483647,
+                            "allowOversold":false,
+                            "infinite":true
+                        }
+                    ],
+                    "defaultHighLight":null,
+                    "storeHighLight":null,
+                    "itemNoHLNum":null,
+                    "defaultTitleHighLight":null,
+                    "tradeLogisticsTag":{
+                        "groupId":"1",
+                        "groupType":"1"
+                    },
+                    "skuAttributeMap":{
+
+                    },
+                    "visitCount":0,
+                    "addToCartCount":0,
+                    "conversionRate30d":0,
+                    "pickupIdList":[
+
+                    ],
+                    "publishedScopeList":[
+                        "web"
+                    ],
+                    "onlineTime":0,
+                    "templatePath":"templates/products/detail.json",
+                    "title":"auto crate product-on sale-1686749823619",
+                    "imageList":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "defaultTitle":"auto crate product-on sale-1686749823619",
+                    "images":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "productId":"16059797640951876842302330"
+                }
+            ],
+            "maxAccumulateNum":-1,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1686996120000,
+            "advancedOverlaySetting":{
+                "shippingOverlayList":[
+                    {
+                        "benefitType":3,
+                        "applyType":1,
+                        "overlay":false
+                    },
+                    {
+                        "benefitType":3,
+                        "applyType":0,
+                        "overlay":false
+                    }
+                ]
+            },
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"买X送Y：满500减免金额50\",\"handleList\":[\"买X送Y-满500减免金额50\"],\"url\":\"买X送Y-满500减免金额50\"}",
+            "promotionCodes":[
+                "2GGA3RQ0A9S3"
+            ],
+            "defaultActivityName":"买X送Y：满500减免金额50",
+            "userLimitedType":0
+        }
+    },
+    {
+        "id": 20,
+        "type": "buy X get Y free",
+        "activityType": "coupon",
+        "name": "买X送Y-满300送1件",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+            "seoHandleList":[
+                "买X送Y-满300送1件"
+            ],
+            "benefitType":12,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":0,
+                        "minThreshold":30000
+                    },
+                    "benefit":{
+                        "benefitScopeType":2,
+                        "offPercent":100,
+                        "discount":0,
+                        "benefitAmount":null,
+                        "benefitValueType":null,
+                        "benefitCount":1,
+                        "benefitProducts":[
+                            {
+                                "storeId":"1666933563635",
+                                "merchantId":"2002875912",
+                                "spuSeq":"16059797640421045727742330",
+                                "shelves":true,
+                                "status":1,
+                                "risk":0,
+                                "productPrice":0,
+                                "originPrice":-1,
+                                "productMaxPrice":50000,
+                                "productMinPrice":50000,
+                                "originMaxPrice":-1,
+                                "originMinPrice":-1,
+                                "currencyCode":"USD",
+                                "currencySymbol":"$",
+                                "currencyDigits":2,
+                                "stock":2147483647,
+                                "infiniteStock":true,
+                                "trackerStock":false,
+                                "productType":0,
+                                "customType":"NORMAL",
+                                "sortationIds":[
+
+                                ],
+                                "sortations":[
+
+                                ],
+                                "brandName":null,
+                                "version":null,
+                                "tagList":[
+
+                                ],
+                                "skuSize":1,
+                                "uniqueKey":"auto-crate-product-on-sale-1686749820468",
+                                "stockStatus":0,
+                                "allowOversold":false,
+                                "sold":0,
+                                "createTime":1686749820621,
+                                "updateTime":1686749832933,
+                                "inquiry":false,
+                                "skuList":[
+                                    {
+                                        "skuSeq":"18059797640425407803962330",
+                                        "price":50000,
+                                        "originPrice":null,
+                                        "itemNo":null,
+                                        "itemNoHighLight":null,
+                                        "editDistance":null,
+                                        "attributes":null,
+                                        "stock":2147483647,
+                                        "allowOversold":false,
+                                        "infinite":true
+                                    }
+                                ],
+                                "defaultHighLight":null,
+                                "storeHighLight":null,
+                                "itemNoHLNum":null,
+                                "defaultTitleHighLight":null,
+                                "tradeLogisticsTag":{
+                                    "groupId":"1",
+                                    "groupType":"1"
+                                },
+                                "skuAttributeMap":{
+
+                                },
+                                "visitCount":0,
+                                "addToCartCount":0,
+                                "conversionRate30d":0,
+                                "pickupIdList":[
+
+                                ],
+                                "publishedScopeList":[
+                                    "web"
+                                ],
+                                "onlineTime":0,
+                                "templatePath":"templates/products/detail.json",
+                                "title":"auto crate product-on sale-1686749820468",
+                                "imageList":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "defaultTitle":"auto crate product-on sale-1686749820468",
+                                "images":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "productId":"16059797640421045727742330"
+                            }
+                        ]
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "benefitEventType":0,
+            "effectScopeType":2,
+            "effectScopeValueList":[
+                {
+                    "storeId":"1666933563635",
+                    "merchantId":"2002875912",
+                    "spuSeq":"16059797640951876842302330",
+                    "shelves":true,
+                    "status":1,
+                    "risk":0,
+                    "productPrice":0,
+                    "originPrice":-1,
+                    "productMaxPrice":50000,
+                    "productMinPrice":50000,
+                    "originMaxPrice":-1,
+                    "originMinPrice":-1,
+                    "currencyCode":"USD",
+                    "currencySymbol":"$",
+                    "currencyDigits":2,
+                    "stock":2147483647,
+                    "infiniteStock":true,
+                    "trackerStock":false,
+                    "productType":0,
+                    "customType":"NORMAL",
+                    "sortationIds":[
+
+                    ],
+                    "sortations":[
+
+                    ],
+                    "brandName":null,
+                    "version":null,
+                    "tagList":[
+
+                    ],
+                    "skuSize":1,
+                    "uniqueKey":"auto-crate-product-on-sale-1686749823619",
+                    "stockStatus":0,
+                    "allowOversold":false,
+                    "sold":0,
+                    "createTime":1686749823784,
+                    "updateTime":1686749823860,
+                    "inquiry":false,
+                    "skuList":[
+                        {
+                            "skuSeq":"18059797640956238918522330",
+                            "price":50000,
+                            "originPrice":null,
+                            "itemNo":null,
+                            "itemNoHighLight":null,
+                            "editDistance":null,
+                            "attributes":null,
+                            "stock":2147483647,
+                            "allowOversold":false,
+                            "infinite":true
+                        }
+                    ],
+                    "defaultHighLight":null,
+                    "storeHighLight":null,
+                    "itemNoHLNum":null,
+                    "defaultTitleHighLight":null,
+                    "tradeLogisticsTag":{
+                        "groupId":"1",
+                        "groupType":"1"
+                    },
+                    "skuAttributeMap":{
+
+                    },
+                    "visitCount":0,
+                    "addToCartCount":0,
+                    "conversionRate30d":0,
+                    "pickupIdList":[
+
+                    ],
+                    "publishedScopeList":[
+                        "web"
+                    ],
+                    "onlineTime":0,
+                    "templatePath":"templates/products/detail.json",
+                    "title":"auto crate product-on sale-1686749823619",
+                    "imageList":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "defaultTitle":"auto crate product-on sale-1686749823619",
+                    "images":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "productId":"16059797640951876842302330"
+                }
+            ],
+            "maxAccumulateNum":-1,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1686996240000,
+            "advancedOverlaySetting":{
+                "shippingOverlayList":[
+                    {
+                        "benefitType":3,
+                        "applyType":1,
+                        "overlay":false
+                    },
+                    {
+                        "benefitType":3,
+                        "applyType":0,
+                        "overlay":false
+                    }
+                ]
+            },
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"买X送Y：满300送1件\",\"handleList\":[\"买X送Y-满300送1件\"],\"url\":\"买X送Y-满300送1件\"}",
+            "promotionCodes":[
+                "4EQNWIZ0RW68"
+            ],
+            "defaultActivityName":"买X送Y：满300送1件",
+            "userLimitedType":0
+        }
+    },
+    {
+        "id": 21,
+        "type": "buy X get Y free",
+        "activityType": "coupon",
+        "name": "买X送Y-买2减免金额20",
+        "url": "/admin/api/sale/activity/coupon/create",
+        "method": "POST",
+        "resBody":
+        {
+            "seoHandleList":[
+                "买X送Y-买2减免金额20"
+            ],
+            "benefitType":12,
+            "benefitEventType":1,
+            "benefitConditions":[
+                {
+                    "benefitEvent":{
+                        "type":1,
+                        "minThreshold":2
+                    },
+                    "benefit":{
+                        "benefitScopeType":2,
+                        "benefitCount":2,
+                        "benefitProducts":[
+                            {
+                                "storeId":"1666933563635",
+                                "merchantId":"2002875912",
+                                "spuSeq":"16059797640421045727742330",
+                                "shelves":true,
+                                "status":1,
+                                "risk":0,
+                                "productPrice":0,
+                                "originPrice":-1,
+                                "productMaxPrice":50000,
+                                "productMinPrice":50000,
+                                "originMaxPrice":-1,
+                                "originMinPrice":-1,
+                                "currencyCode":"USD",
+                                "currencySymbol":"$",
+                                "currencyDigits":2,
+                                "stock":2147483647,
+                                "infiniteStock":true,
+                                "trackerStock":false,
+                                "productType":0,
+                                "customType":"NORMAL",
+                                "sortationIds":[
+
+                                ],
+                                "sortations":[
+
+                                ],
+                                "brandName":null,
+                                "version":null,
+                                "tagList":[
+
+                                ],
+                                "skuSize":1,
+                                "uniqueKey":"auto-crate-product-on-sale-1686749820468",
+                                "stockStatus":0,
+                                "allowOversold":false,
+                                "sold":0,
+                                "createTime":1686749820621,
+                                "updateTime":1686749832933,
+                                "inquiry":false,
+                                "skuList":[
+                                    {
+                                        "skuSeq":"18059797640425407803962330",
+                                        "price":50000,
+                                        "originPrice":null,
+                                        "itemNo":null,
+                                        "itemNoHighLight":null,
+                                        "editDistance":null,
+                                        "attributes":null,
+                                        "stock":2147483647,
+                                        "allowOversold":false,
+                                        "infinite":true
+                                    }
+                                ],
+                                "defaultHighLight":null,
+                                "storeHighLight":null,
+                                "itemNoHLNum":null,
+                                "defaultTitleHighLight":null,
+                                "tradeLogisticsTag":{
+                                    "groupId":"1",
+                                    "groupType":"1"
+                                },
+                                "skuAttributeMap":{
+
+                                },
+                                "visitCount":0,
+                                "addToCartCount":0,
+                                "conversionRate30d":0,
+                                "pickupIdList":[
+
+                                ],
+                                "publishedScopeList":[
+                                    "web"
+                                ],
+                                "onlineTime":0,
+                                "templatePath":"templates/products/detail.json",
+                                "title":"auto crate product-on sale-1686749820468",
+                                "imageList":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "defaultTitle":"auto crate product-on sale-1686749820468",
+                                "images":[
+                                    "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                                ],
+                                "productId":"16059797640421045727742330"
+                            }
+                        ],
+                        "benefitValueType":1,
+                        "offPercent":null,
+                        "discount":null,
+                        "benefitAmount":2000
+                    },
+                    "sequenceNumber":1,
+                    "id":"BenefitGradient1"
+                }
+            ],
+            "effectScopeType":2,
+            "effectScopeValueList":[
+                {
+                    "storeId":"1666933563635",
+                    "merchantId":"2002875912",
+                    "spuSeq":"16059797640951876842302330",
+                    "shelves":true,
+                    "status":1,
+                    "risk":0,
+                    "productPrice":0,
+                    "originPrice":-1,
+                    "productMaxPrice":50000,
+                    "productMinPrice":50000,
+                    "originMaxPrice":-1,
+                    "originMinPrice":-1,
+                    "currencyCode":"USD",
+                    "currencySymbol":"$",
+                    "currencyDigits":2,
+                    "stock":2147483647,
+                    "infiniteStock":true,
+                    "trackerStock":false,
+                    "productType":0,
+                    "customType":"NORMAL",
+                    "sortationIds":[
+
+                    ],
+                    "sortations":[
+
+                    ],
+                    "brandName":null,
+                    "version":null,
+                    "tagList":[
+
+                    ],
+                    "skuSize":1,
+                    "uniqueKey":"auto-crate-product-on-sale-1686749823619",
+                    "stockStatus":0,
+                    "allowOversold":false,
+                    "sold":0,
+                    "createTime":1686749823784,
+                    "updateTime":1686749823860,
+                    "inquiry":false,
+                    "skuList":[
+                        {
+                            "skuSeq":"18059797640956238918522330",
+                            "price":50000,
+                            "originPrice":null,
+                            "itemNo":null,
+                            "itemNoHighLight":null,
+                            "editDistance":null,
+                            "attributes":null,
+                            "stock":2147483647,
+                            "allowOversold":false,
+                            "infinite":true
+                        }
+                    ],
+                    "defaultHighLight":null,
+                    "storeHighLight":null,
+                    "itemNoHLNum":null,
+                    "defaultTitleHighLight":null,
+                    "tradeLogisticsTag":{
+                        "groupId":"1",
+                        "groupType":"1"
+                    },
+                    "skuAttributeMap":{
+
+                    },
+                    "visitCount":0,
+                    "addToCartCount":0,
+                    "conversionRate30d":0,
+                    "pickupIdList":[
+
+                    ],
+                    "publishedScopeList":[
+                        "web"
+                    ],
+                    "onlineTime":0,
+                    "templatePath":"templates/products/detail.json",
+                    "title":"auto crate product-on sale-1686749823619",
+                    "imageList":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "defaultTitle":"auto crate product-on sale-1686749823619",
+                    "images":[
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "productId":"16059797640951876842302330"
+                }
+            ],
+            "maxAccumulateNum":-1,
+            "targetUserType":0,
+            "endTime":null,
+            "startTime":1686996480000,
+            "advancedOverlaySetting":{
+                "shippingOverlayList":[
+                    {
+                        "benefitType":3,
+                        "applyType":1,
+                        "overlay":false
+                    },
+                    {
+                        "benefitType":3,
+                        "applyType":0,
+                        "overlay":false
+                    }
+                ]
+            },
+            "versionFlag":true,
+            "activitySeq":"",
+            "version":1,
+            "defaultSeo":"{\"title\":\"买X送Y：买2减免金额20\",\"handleList\":[\"买X送Y-买2减免金额20\"],\"url\":\"买X送Y-买2减免金额20\"}",
+            "promotionCodes":[
+                "V7H4TOCPX6Q5"
+            ],
+            "defaultActivityName":"买X送Y：买2减免金额20",
+            "userLimitedType":0
+        }
+    }
+
+    ]
+

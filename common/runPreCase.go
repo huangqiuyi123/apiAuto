@@ -26,7 +26,6 @@ func GetLocationSeq(environment string) string {
 	locationSeq := response["data"].(map[string]interface{})["list"].([]interface{})[0].(map[string]interface{})["locationSeq"].(string)
 
 	return locationSeq
-
 }
 
 func AddProduct(environment string) (string, string) {
