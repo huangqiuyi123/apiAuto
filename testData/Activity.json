@@ -1513,7 +1513,367 @@
             "defaultActivityName":"买X送Y：买2减免金额20",
             "userLimitedType":0
         }
+    },
+    {
+        "id": 22,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】百分比-单梯度100-10",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {
+            "defaultSeo": "{\"title\":\"【自动折扣】百分比-单梯度100-10%\",\"handleList\":[\"【自动折扣】百分比-单梯度100-10-\"],\"url\":\"【自动折扣】百分比-单梯度100-10-\"}",
+            "seoHandleList": [
+                "【自动折扣】百分比-单梯度100-10-"
+            ],
+            "benefitType": 2,
+            "benefitEventType": 0,
+            "benefitConditions": [
+                {
+                    "sequenceNumber": 1,
+                    "benefitEvent": {
+                        "type": 0,
+                        "minThreshold": 10000
+                    },
+                    "benefit": {
+                        "offPercent": 10
+                    },
+                    "id": "BenefitGradient1"
+                }
+            ],
+            "effectScopeType": 2,
+            "targetUserType": 0,
+            "endTime": null,
+            "startTime": 1686997920000,
+            "advancedOverlaySetting": {
+                "orderOverlayList": [
+                    {
+                        "benefitType": 2,
+                        "applyType": 1,
+                        "overlay": false
+                    },
+                    {
+                        "benefitType": 1,
+                        "applyType": 1,
+                        "overlay": false
+                    }
+                ],
+                "productOverlayList": [
+                    {
+                        "benefitType": 2,
+                        "applyType": 1,
+                        "overlay": false
+                    },
+                    {
+                        "benefitType": 1,
+                        "applyType": 1,
+                        "overlay": false
+                    }
+                ],
+                "shippingOverlayList": [
+                    {
+                        "benefitType": 3,
+                        "applyType": 1,
+                        "overlay": false
+                    },
+                    {
+                        "benefitType": 3,
+                        "applyType": 0,
+                        "overlay": false
+                    }
+                ]
+            },
+            "locationSeqList": [],
+            "salesChannelList": [
+                "web"
+            ],
+            "effectScopeValueList": [
+                {
+                    "storeId": "1666933563635",
+                    "merchantId": "2002875912",
+                    "spuSeq": "16059797640951876842302330",
+                    "shelves": true,
+                    "status": 1,
+                    "risk": 0,
+                    "productPrice": 0,
+                    "originPrice": -1,
+                    "productMaxPrice": 50000,
+                    "productMinPrice": 50000,
+                    "originMaxPrice": -1,
+                    "originMinPrice": -1,
+                    "currencyCode": "USD",
+                    "currencySymbol": "$",
+                    "currencyDigits": 2,
+                    "stock": 2147483647,
+                    "infiniteStock": true,
+                    "trackerStock": false,
+                    "productType": 0,
+                    "customType": "NORMAL",
+                    "sortationIds": [],
+                    "sortations": [],
+                    "brandName": null,
+                    "version": null,
+                    "tagList": [],
+                    "skuSize": 1,
+                    "uniqueKey": "auto-crate-product-on-sale-1686749823619",
+                    "stockStatus": 0,
+                    "allowOversold": false,
+                    "sold": 0,
+                    "createTime": 1686749823784,
+                    "updateTime": 1686749823860,
+                    "inquiry": false,
+                    "skuList": [
+                        {
+                            "skuSeq": "18059797640956238918522330",
+                            "price": 50000,
+                            "originPrice": null,
+                            "itemNo": null,
+                            "itemNoHighLight": null,
+                            "editDistance": null,
+                            "attributes": null,
+                            "stock": 2147483647,
+                            "allowOversold": false,
+                            "infinite": true
+                        }
+                    ],
+                    "defaultHighLight": null,
+                    "storeHighLight": null,
+                    "itemNoHLNum": null,
+                    "defaultTitleHighLight": null,
+                    "tradeLogisticsTag": {
+                        "groupId": "1",
+                        "groupType": "1"
+                    },
+                    "skuAttributeMap": {},
+                    "visitCount": 0,
+                    "addToCartCount": 0,
+                    "conversionRate30d": 0,
+                    "pickupIdList": [],
+                    "publishedScopeList": [
+                        "web"
+                    ],
+                    "onlineTime": 0,
+                    "templatePath": "templates/products/detail.json",
+                    "title": "auto crate product-on sale-1686749823619",
+                    "imageList": [
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "defaultTitle": "auto crate product-on sale-1686749823619",
+                    "images": [
+                        "https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"
+                    ],
+                    "productId": "16059797640951876842302330"
+                }
+            ],
+            "versionFlag": true,
+            "activitySeq": "",
+            "defaultActivityName": "【自动折扣】百分比-单梯度100-10%",
+            "userLimitedType": 0,
+            "discountStyleText": "Buy {condition} get {discount} OFF"
+        }
+    },
+    {
+        "id": 23,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】百分比-多梯度：2件-10%,3件-15%,4件-20%",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】百分比-多梯度：2件-10%,3件-15%,4件-20%\",\"handleList\":[\"【自动折扣】百分比-多梯度-2件-10-3件-15-4件-20-\"],\"url\":\"【自动折扣】百分比-多梯度-2件-10-3件-15-4件-20-\"}","seoHandleList":["【自动折扣】百分比-多梯度-2件-10-3件-15-4件-20-"],"benefitType":2,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"offPercent":10},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"offPercent":15},"id":"BenefitGradient18"},{"sequenceNumber":3,"benefitEvent":{"type":1,"minThreshold":4},"benefit":{"offPercent":20},"id":"BenefitGradient19"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1686998820000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640656597840542330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749821856","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749822025,"updateTime":1686749822103,"inquiry":false,"skuList":[{"skuSeq":"18059797640661295461082330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749821856","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749821856","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640656597840542330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】百分比-多梯度：2件-10%,3件-15%,4件-20%","userLimitedType":0,"discountStyleText":"Buy {condition} get {discount} OFF"}
+
+    },
+    {
+        "id": 24,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】百分比-指定客户，多梯度：100-10%,200-20%",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】百分比-指定客户，多梯度：100-10%,200-20%\",\"handleList\":[\"【自动折扣】百分比-指定客户-多梯度-100-10-200-20-\"],\"url\":\"【自动折扣】百分比-指定客户-多梯度-100-10-200-20-\"}","seoHandleList":["【自动折扣】百分比-指定客户-多梯度-100-10-200-20-"],"benefitType":2,"benefitEventType":0,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":10000},"benefit":{"offPercent":10},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":0,"minThreshold":20000},"benefit":{"offPercent":20},"id":"BenefitGradient22"}],"effectScopeType":2,"targetUserType":5,"endTime":null,"startTime":1686999000000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640127108903262330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749818726","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749818868,"updateTime":1686749829629,"inquiry":false,"skuList":[{"skuSeq":"18059797640131303207322330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749818726","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749818726","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640127108903262330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】百分比-指定客户，多梯度：100-10%,200-20%","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"Buy {condition} get {discount} OFF"}
+    },
+    {
+        "id": 25,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】固定金额-120-10",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】固定金额-120-10\",\"handleList\":[\"【自动折扣】固定金额-120-10\"],\"url\":\"【自动折扣】固定金额-120-10\"}","seoHandleList":["【自动折扣】固定金额-120-10"],"benefitType":1,"maxAccumulateNum":1,"benefitEventType":0,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":12000},"benefit":{"benefitAmount":1000},"id":"BenefitGradient1"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1686999240000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640951876842302330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749823619","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749823784,"updateTime":1686749823860,"inquiry":false,"skuList":[{"skuSeq":"18059797640956238918522330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749823619","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749823619","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640951876842302330"}],"orderUseLimit":true,"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】固定金额-120-10","userLimitedType":0,"discountStyleText":"Buy {condition} get {discount} OFF"}
+    },
+    {
+        "id": 26,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】固定金额：1000-100，上不封顶",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】固定金额：1000-100，上不封顶\",\"handleList\":[\"【自动折扣】固定金额-1000-100-上不封顶\"],\"url\":\"【自动折扣】固定金额-1000-100-上不封顶\"}","seoHandleList":["【自动折扣】固定金额-1000-100-上不封顶"],"benefitType":1,"maxAccumulateNum":0,"benefitEventType":0,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":100000},"benefit":{"benefitAmount":10000},"id":"BenefitGradient1"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1686999360000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640656597840542330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749821856","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749822025,"updateTime":1686749822103,"inquiry":false,"skuList":[{"skuSeq":"18059797640661295461082330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749821856","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749821856","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640656597840542330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】固定金额：1000-100，上不封顶","userLimitedType":0,"discountStyleText":"Get {discount} OFF on every {condition}"}
+
+    },
+    {
+        "id": 27,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】固定金额：多梯度，2件-20，3件-30，4件-40",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】固定金额：多梯度，2件-20，3件-30，4件-40\",\"handleList\":[\"【自动折扣】固定金额-多梯度-2件-20-3件-30-4件-40\"],\"url\":\"【自动折扣】固定金额-多梯度-2件-20-3件-30-4件-40\"}","seoHandleList":["【自动折扣】固定金额-多梯度-2件-20-3件-30-4件-40"],"benefitType":1,"maxAccumulateNum":1,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"benefitAmount":2000},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"benefitAmount":3000},"id":"BenefitGradient29"},{"sequenceNumber":3,"benefitEvent":{"type":1,"minThreshold":4},"benefit":{"benefitAmount":4000},"id":"BenefitGradient30"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1686999480000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640421045727742330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749820468","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749820621,"updateTime":1686749832933,"inquiry":false,"skuList":[{"skuSeq":"18059797640425407803962330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749820468","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749820468","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640421045727742330"}],"orderUseLimit":true,"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】固定金额：多梯度，2件-20，3件-30，4件-40","userLimitedType":0,"discountStyleText":"Buy {condition} get {discount} OFF"}
+
+    },
+    {
+        "id": 27,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】固定金额：2件-12，上不封顶，指定客户",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】固定金额：2件-12，上不封顶，指定客户\",\"handleList\":[\"【自动折扣】固定金额-2件-12-上不封顶-指定客户\"],\"url\":\"【自动折扣】固定金额-2件-12-上不封顶-指定客户\"}","seoHandleList":["【自动折扣】固定金额-2件-12-上不封顶-指定客户"],"benefitType":1,"maxAccumulateNum":0,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"benefitAmount":1200},"id":"BenefitGradient1"}],"effectScopeType":2,"targetUserType":5,"endTime":null,"startTime":1686999720000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640127108903262330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749818726","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749818868,"updateTime":1686749829629,"inquiry":false,"skuList":[{"skuSeq":"18059797640131303207322330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749818726","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749818726","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640127108903262330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】固定金额：2件-12，上不封顶，指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"Get {discount} OFF on every {condition} item(s)"}
+    },
+    {
+        "id": 28,
+        "type": "buy X get Y free",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】买X送Y：300减免折扣30%",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】买X送Y：300减免折扣30%\",\"handleList\":[\"【自动折扣】买X送Y-300减免折扣30-\"],\"url\":\"【自动折扣】买X送Y-300减免折扣30-\"}","seoHandleList":["【自动折扣】买X送Y-300减免折扣30-"],"benefitType":12,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":30000},"benefit":{"benefitScopeType":2,"benefitCount":2,"benefitProducts":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640951876842302330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749823619","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749823784,"updateTime":1686749823860,"inquiry":false,"skuList":[{"skuSeq":"18059797640956238918522330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749823619","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749823619","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640951876842302330"}],"offPercent":30},"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":2,"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640951876842302330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749823619","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749823784,"updateTime":1686749823860,"inquiry":false,"skuList":[{"skuSeq":"18059797640956238918522330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749823619","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749823619","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640951876842302330"}],"maxAccumulateNum":-1,"targetUserType":0,"endTime":null,"startTime":1686999900000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】买X送Y：300减免折扣30%","userLimitedType":0,"discountStyleText":"Buy {condition}, enjoy {discount} off for {benefitCount} of the items"}
+    },
+    {
+        "id": 29,
+        "type": "buy X get Y free",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】买X送Y：满500-50",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】买X送Y：满500-50\",\"handleList\":[\"【自动折扣】买X送Y-满500-50\"],\"url\":\"【自动折扣】买X送Y-满500-50\"}","seoHandleList":["【自动折扣】买X送Y-满500-50"],"benefitType":12,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":50000},"benefit":{"benefitScopeType":2,"benefitCount":2,"benefitProducts":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640127108903262330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749818726","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749818868,"updateTime":1686749829629,"inquiry":false,"skuList":[{"skuSeq":"18059797640131303207322330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749818726","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749818726","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640127108903262330"}],"benefitValueType":1,"offPercent":null,"discount":null,"benefitAmount":5000},"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":2,"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640421045727742330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749820468","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749820621,"updateTime":1686749832933,"inquiry":false,"skuList":[{"skuSeq":"18059797640425407803962330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749820468","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749820468","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640421045727742330"}],"maxAccumulateNum":-1,"targetUserType":0,"endTime":null,"startTime":1687000140000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】买X送Y：满500-50","userLimitedType":0,"discountStyleText":"Buy {condition}, enjoy {discount} off for {benefitCount} of the items"}
+    },
+    {
+        "id": 30,
+        "type": "buy X get Y free",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】买X送Y：满2送1",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】买X送Y：满2送1\",\"handleList\":[\"【自动折扣】买X送Y-满2送1\"],\"url\":\"【自动折扣】买X送Y-满2送1\"}","seoHandleList":["【自动折扣】买X送Y-满2送1"],"benefitType":12,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"benefitScopeType":2,"benefitCount":1,"offPercent":100,"discount":0,"benefitAmount":null,"benefitValueType":null,"benefitProducts":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797639655333589022330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749815914","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749816056,"updateTime":1686749816128,"inquiry":false,"skuList":[{"skuSeq":"18059797639659360120922330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749815914","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749815914","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797639655333589022330"}]},"id":"BenefitGradient1"}],"effectScopeType":2,"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797639955645755582330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749817704","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749817846,"updateTime":1686749829599,"inquiry":false,"skuList":[{"skuSeq":"18059797639960175603962330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749817704","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749817704","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797639955645755582330"}],"maxAccumulateNum":-1,"targetUserType":0,"endTime":null,"startTime":1687000260000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】买X送Y：满2送1","userLimitedType":0,"discountStyleText":"Buy {condition}, get {benefitCount} of the items for FREE"}
+    },
+    {
+        "id": 31,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】免运费-99免邮",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】免运费-99免邮\",\"handleList\":[\"【自动折扣】免运费-99免邮\"],\"url\":\"【自动折扣】免运费-99免邮\"}","seoHandleList":["【自动折扣】免运费-99免邮"],"benefitType":3,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":0,"minThreshold":9900},"benefit":{},"id":"BenefitGradient1"}],"benefitEventType":0,"effectScopeType":2,"entitledCountryTargetSelection":"all","prerequisiteShippingPriceRange":null,"targetUserType":0,"endTime":null,"startTime":1687000560000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":12,"applyType":1,"overlay":false},{"benefitType":12,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false}]},"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638809761902302330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749810873","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749811016,"updateTime":1686749811090,"inquiry":false,"skuList":[{"skuSeq":"18059797638813956206362330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749810873","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749810873","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797638809761902302330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】免运费-99免邮","userLimitedType":0,"discountStyleText":"Buy {condition} get Free Shipping"}
+    },
+    {
+        "id": 32,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】免运费-2件免邮，指定国家地区",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】免运费-2件免邮，指定国家地区\",\"handleList\":[\"【自动折扣】免运费-2件免邮-指定国家地区\"],\"url\":\"【自动折扣】免运费-2件免邮-指定国家地区\"}","seoHandleList":["【自动折扣】免运费-2件免邮-指定国家地区"],"benefitType":3,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{},"id":"BenefitGradient1"}],"effectScopeType":2,"entitledCountryTargetSelection":"entitled","targetUserType":0,"endTime":null,"startTime":1687000740000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":12,"applyType":1,"overlay":false},{"benefitType":12,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false}]},"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638695173516862330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749810195","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749810335,"updateTime":1686749822929,"inquiry":false,"skuList":[{"skuSeq":"18059797638700374453882330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749810195","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749810195","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797638695173516862330"}],"freeShippingAreaCodeList":[{"countryCode":"CN"},{"countryCode":"HK"},{"countryCode":"MO"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】免运费-2件免邮，指定国家地区","userLimitedType":0,"discountStyleText":"Buy {condition} get Free Shipping"}
+
+    },
+    {
+        "id": 33,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】免运费-1件免邮，指定客户",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】免运费-1件免邮，指定客户\",\"handleList\":[\"【自动折扣】免运费-1件免邮-指定客户\"],\"url\":\"【自动折扣】免运费-1件免邮-指定客户\"}","seoHandleList":["【自动折扣】免运费-1件免邮-指定客户"],"benefitType":3,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":1},"benefit":{},"id":"BenefitGradient1"}],"effectScopeType":2,"entitledCountryTargetSelection":"all","targetUserType":5,"endTime":null,"startTime":1687000800000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":2,"applyType":0,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false},{"benefitType":1,"applyType":0,"overlay":false},{"benefitType":12,"applyType":1,"overlay":false},{"benefitType":12,"applyType":0,"overlay":false},{"benefitType":11,"applyType":0,"overlay":false},{"benefitType":14,"applyType":0,"overlay":false},{"benefitType":9,"applyType":0,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false}]},"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638557935889822330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749809359","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749809515,"updateTime":1686749809834,"inquiry":false,"skuList":[{"skuSeq":"18059797638562297966042330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749809359","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749809359","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797638557935889822330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】免运费-1件免邮，指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"Buy {condition} get Free Shipping"}
+    },
+    {
+        "id": 34,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】第M件折扣-多梯度：2件-30%，4件-50%",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】第M件折扣-多梯度：2件-30%，4件-50%\",\"handleList\":[\"【自动折扣】第M件折扣-多梯度-2件-30-4件-50-\"],\"url\":\"【自动折扣】第M件折扣-多梯度-2件-30-4件-50-\"}","seoHandleList":["【自动折扣】第M件折扣-多梯度-2件-30-4件-50-"],"benefitType":11,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"offPercent":30},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":4},"benefit":{"offPercent":50},"id":"BenefitGradient3"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1687012140000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638448883985662330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"自动化创建商品-上架不追踪库存-1686749788743-495709104","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749808866,"updateTime":1686749819703,"inquiry":false,"skuList":[{"skuSeq":"18059797638453246061882330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"自动化创建商品-上架不追踪库存-1686749788743","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"defaultTitle":"自动化创建商品-上架不追踪库存-1686749788743","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"productId":"16059797638448883985662330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】第M件折扣-多梯度：2件-30%，4件-50%","userLimitedType":0,"discountStyleText":"Buy {condition} get the lowest-priced {discount} off"}
+
+    },
+    {
+        "id": 35,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】第M件折扣：3件-30，4件-40，5件-50",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】第M件折扣：3件-30，4件-40，5件-50\",\"handleList\":[\"【自动折扣】第M件折扣-3件-30-4件-40-5件-50\"],\"url\":\"【自动折扣】第M件折扣-3件-30-4件-40-5件-50\"}","seoHandleList":["【自动折扣】第M件折扣-3件-30-4件-40-5件-50"],"benefitType":11,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefit":{"benefitValueType":1,"offPercent":null,"discount":null,"benefitAmount":3000},"benefitEvent":{"type":1,"minThreshold":3},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":4},"benefit":{"benefitAmount":4000},"id":"BenefitGradient3"},{"sequenceNumber":3,"benefitEvent":{"type":1,"minThreshold":5},"benefit":{"benefitAmount":5000},"id":"BenefitGradient4"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1687012440000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638380600716382330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"自动化创建商品-上架不追踪库存-1686749788743-575835120","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749808459,"updateTime":1686749819676,"inquiry":false,"skuList":[{"skuSeq":"18059797638384962792602330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"自动化创建商品-上架不追踪库存-1686749788743","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"defaultTitle":"自动化创建商品-上架不追踪库存-1686749788743","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"productId":"16059797638380600716382330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】第M件折扣：3件-30，4件-40，5件-50","userLimitedType":0,"discountStyleText":"Buy {condition} get the lowest-priced {discount} off"}
+
+    },
+    {
+        "id": 36,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】第M件折扣：1件-15%，指定客户",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】第M件折扣：1件-15%，指定客户\",\"handleList\":[\"【自动折扣】第M件折扣-1件-15-指定客户\"],\"url\":\"【自动折扣】第M件折扣-1件-15-指定客户\"}","seoHandleList":["【自动折扣】第M件折扣-1件-15-指定客户"],"benefitType":11,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":1},"benefit":{"offPercent":15},"id":"BenefitGradient1"}],"effectScopeType":2,"targetUserType":5,"endTime":null,"startTime":1687012560000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797638282454002622330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"自动化创建商品-上架不追踪库存-1686749788743-1863648816","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749807873,"updateTime":1686749819649,"inquiry":false,"skuList":[{"skuSeq":"18059797638286648306682330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"自动化创建商品-上架不追踪库存-1686749788743","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"defaultTitle":"自动化创建商品-上架不追踪库存-1686749788743","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/1000x-(15).webp?w=750&h=750"],"productId":"16059797638282454002622330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】第M件折扣：1件-15%，指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"Buy {condition} get the lowest-priced {discount} off"}
+
+    },
+    {
+        "id": 37,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】免最低价：2件送1，4件送2",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】免最低价：2件送1，4件送2\",\"handleList\":[\"【自动折扣】免最低价-2件送1-4件送2\"],\"url\":\"【自动折扣】免最低价-2件送1-4件送2\"}","seoHandleList":["【自动折扣】免最低价-2件送1-4件送2"],"benefitType":9,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"benefitCount":1},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":4},"benefit":{"benefitCount":2},"id":"BenefitGradient13"}],"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1687012800000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640951876842302330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749823619","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749823784,"updateTime":1686749823860,"inquiry":false,"skuList":[{"skuSeq":"18059797640956238918522330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749823619","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749823619","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640951876842302330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】免最低价：2件送1，4件送2","userLimitedType":0,"discountStyleText":"Buy {condition}, get {discount} lowest-priced for FREE"}
+
+    },
+    {
+        "id": 38,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】免最低价：3件送1，指定客户",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】免最低价：3件送1，指定客户\",\"handleList\":[\"【自动折扣】免最低价-3件送1-指定客户\"],\"url\":\"【自动折扣】免最低价-3件送1-指定客户\"}","seoHandleList":["【自动折扣】免最低价-3件送1-指定客户"],"benefitType":9,"benefitEventType":1,"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"benefitCount":1},"id":"BenefitGradient1"}],"effectScopeType":2,"targetUserType":5,"endTime":null,"startTime":1687013160000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640421045727742330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749820468","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749820621,"updateTime":1686749832933,"inquiry":false,"skuList":[{"skuSeq":"18059797640425407803962330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749820468","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749820468","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640421045727742330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】免最低价：3件送1，指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"Buy {condition}, get {discount} lowest-priced for FREE"}
+
+    },
+    {
+        "id": 39,
+        "type": "specifyProduct",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】M件N元：2件99元，上不封顶",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】M件N元：2件99元，上不封顶\",\"handleList\":[\"【自动折扣】M件N元：2件99元，上不封顶\"],\"url\":\"【自动折扣】M件N元：2件99元，上不封顶\"}","seoHandleList":["【自动折扣】M件N元：2件99元，上不封顶"],"benefitType":14,"benefitEventType":1,"effectScopeType":2,"targetUserType":0,"endTime":null,"startTime":1687013340000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":2,"isAccumulated":true},"benefit":{"fixedPrice":9900},"id":"BenefitGradient1"}],"effectScopeValueList":[{"storeId":"1666933563635","merchantId":"2002875912","spuSeq":"16059797640127108903262330","shelves":true,"status":1,"risk":0,"productPrice":0,"originPrice":-1,"productMaxPrice":50000,"productMinPrice":50000,"originMaxPrice":-1,"originMinPrice":-1,"currencyCode":"USD","currencySymbol":"$","currencyDigits":2,"stock":2147483647,"infiniteStock":true,"trackerStock":false,"productType":0,"customType":"NORMAL","sortationIds":[],"sortations":[],"brandName":null,"version":null,"tagList":[],"skuSize":1,"uniqueKey":"auto-crate-product-on-sale-1686749818726","stockStatus":0,"allowOversold":false,"sold":0,"createTime":1686749818868,"updateTime":1686749829629,"inquiry":false,"skuList":[{"skuSeq":"18059797640131303207322330","price":50000,"originPrice":null,"itemNo":null,"itemNoHighLight":null,"editDistance":null,"attributes":null,"stock":2147483647,"allowOversold":false,"infinite":true}],"defaultHighLight":null,"storeHighLight":null,"itemNoHLNum":null,"defaultTitleHighLight":null,"tradeLogisticsTag":{"groupId":"1","groupType":"1"},"skuAttributeMap":{},"visitCount":0,"addToCartCount":0,"conversionRate30d":0,"pickupIdList":[],"publishedScopeList":["web"],"onlineTime":0,"templatePath":"templates/products/detail.json","title":"auto crate product-on sale-1686749818726","imageList":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"defaultTitle":"auto crate product-on sale-1686749818726","images":["https://img-preview.myshopline.com/image/store/2002875912/1666933563635/-4.jpg?w=1200&h=1101"],"productId":"16059797640127108903262330"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】M件N元：2件99元，上不封顶","userLimitedType":0,"discountStyleText":"Every {condition} item(s) for {fixedPrice}"}
+
+    },
+    {
+        "id": 40,
+        "type": "specifyProductAndCustomer",
+        "activityType": "automaticDiscount",
+        "name": "【自动折扣】M件N元：1件50，2件100，3件150，指定客户",
+        "url": "/admin/api/sale/activity/discount/create",
+        "method": "POST",
+        "resBody":
+        {"defaultSeo":"{\"title\":\"【自动折扣】M件N元：1件50，2件100，3件150，指定客户\",\"handleList\":[\"【自动折扣】M件N元-1件50-2件100-3件150-指定客户\"],\"url\":\"【自动折扣】M件N元-1件50-2件100-3件150-指定客户\"}","seoHandleList":["【自动折扣】M件N元-1件50-2件100-3件150-指定客户"],"benefitType":14,"benefitEventType":1,"effectScopeType":0,"targetUserType":5,"endTime":null,"startTime":1687013640000,"advancedOverlaySetting":{"orderOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"productOverlayList":[{"benefitType":2,"applyType":1,"overlay":false},{"benefitType":1,"applyType":1,"overlay":false}],"shippingOverlayList":[{"benefitType":3,"applyType":1,"overlay":false},{"benefitType":3,"applyType":0,"overlay":false}]},"locationSeqList":[],"salesChannelList":["web"],"benefitConditions":[{"sequenceNumber":1,"benefitEvent":{"type":1,"minThreshold":1,"isAccumulated":false},"benefit":{"fixedPrice":5000},"id":"BenefitGradient1"},{"sequenceNumber":2,"benefitEvent":{"type":1,"minThreshold":2},"benefit":{"fixedPrice":10000},"id":"BenefitGradient22"},{"sequenceNumber":3,"benefitEvent":{"type":1,"minThreshold":3},"benefit":{"fixedPrice":15000},"id":"BenefitGradient23"}],"versionFlag":true,"activitySeq":"","defaultActivityName":"【自动折扣】M件N元：1件50，2件100，3件150，指定客户","userLimitedType":0,"targetUserInfoList":[{"memberId":"2005448473"}],"discountStyleText":"{condition} for {fixedPrice}"}
     }
+
 
     ]
 

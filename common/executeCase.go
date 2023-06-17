@@ -43,36 +43,36 @@ func ExecuteDiscountActivity(environment string) {
 			///*
 			//   直接创建，无限制
 			//*/
-			//{
-			//	if method == "POST" {
-			//		response, _ := Post(url, newBody, nil, nil)
-			//		activitySeq := response["data"].(string)
-			//		EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
-			//	}
-			//	if method == "GET" {
-			//		Get(url, nil, nil)
-			//	}
-			//}
-			//
-		//case dataType == "specifyCustomer":
-		//	/*
-		//	   指定客户需要前置新增客户
-		//	*/
-		//	{
-		//		memberId := AddCustomer(environment)
-		//
-		//		//替换客户ID
-		//		newBody1, _ := sjson.Set(newBody, "targetUserInfoList.0.memberId", memberId)
-		//
-		//		if method == "POST" {
-		//			response, _ := Post(url, newBody1, nil, nil)
-		//			activitySeq := response["data"].(string)
-		//			EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
-		//		}
-		//		if method == "GET" {
-		//			Get(url, nil, nil)
-		//		}
-		//	}
+			{
+				if method == "POST" {
+					response, _ := Post(url, newBody, nil, nil)
+					activitySeq := response["data"].(string)
+					EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+				}
+				if method == "GET" {
+					Get(url, nil, nil)
+				}
+			}
+
+		case dataType == "specifyCustomer":
+			/*
+			   指定客户需要前置新增客户
+			*/
+			{
+				memberId := AddCustomer(environment)
+
+				//替换客户ID
+				newBody1, _ := sjson.Set(newBody, "targetUserInfoList.0.memberId", memberId)
+
+				if method == "POST" {
+					response, _ := Post(url, newBody1, nil, nil)
+					activitySeq := response["data"].(string)
+					EnableCustomStyles(environment, activitySeq) //后置操作，开启自定义样式
+				}
+				if method == "GET" {
+					Get(url, nil, nil)
+				}
+			}
 
 		case dataType == "specifyProduct":
 			/*
