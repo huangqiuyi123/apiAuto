@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"apiAuto/config"
-	"apiAuto/util"
+	"github.com/huangqiuyi123/apiAuto/config"
+	"github.com/huangqiuyi123/apiAuto/util"
 	"github.com/tidwall/sjson"
 )
 

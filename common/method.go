@@ -1,116 +1,116 @@
 package common
 
 import (
-    "bytes"
-    "encoding/json"
-    "errors"
-    "log"
-    "net/http"
+	"bytes"
+	"encoding/json"
+	"errors"
+	"log"
+	"net/http"
 
-    "apiAuto/util"
+	"github.com/huangqiuyi123/apiAuto/util"
 )
 
 func Get(url string, params map[string]string, headers map[string]string) (interface{}, error) {
 
-    // new request
-    request, err := http.NewRequest(http.MethodGet, url, nil)
-    if err != nil {
-        log.Println(err)
-        return nil, errors.New("new request is fail ")
-    }
+	// new request
+	request, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		log.Println(err)
+		return nil, errors.New("new request is fail ")
+	}
 
-    request.Header.Set("cookie", configData.Header.Cookie)
+	request.Header.Set("cookie", configData.Header.Cookie)
 
-    // add params
-    param := request.URL.Query()
-    if params != nil {
-        for key, value := range params {
-            param.Add(key, value)
-        }
-        request.URL.RawQuery = param.Encode()
-    }
+	// add params
+	param := request.URL.Query()
+	if params != nil {
+		for key, value := range params {
+			param.Add(key, value)
+		}
+		request.URL.RawQuery = param.Encode()
+	}
 
-    // add headers
-    if headers != nil {
-        for key, value := range headers {
-            request.Header.Add(key, value)
-        }
-    }
+	// add headers
+	if headers != nil {
+		for key, value := range headers {
+			request.Header.Add(key, value)
+		}
+	}
 
-    // 发起请求
-    client := &http.Client{}
-    log.Printf("请求方式： %s  ｜ 请求URL : %s \n\n", http.MethodGet, request.URL.String())
-    res, err := client.Do(request)
+	// 发起请求
+	client := &http.Client{}
+	log.Printf("请求方式： %s  ｜ 请求URL : %s \n\n", http.MethodGet, request.URL.String())
+	res, err := client.Do(request)
 
-    // 格式化返回值
-    response, _ := util.ParseResponse(res)
+	// 格式化返回值
+	response, _ := util.ParseResponse(res)
 
-    return response, err
+	return response, err
 
 }
 
 func Post(url string, body interface{}, params map[string]string, headers map[string]string) (map[string]any, error) {
-    // add post body
-    var bodyJson []byte
-    var request *http.Request
+	// add post body
+	var bodyJson []byte
+	var request *http.Request
 
-    // 判断入参类型
-    switch body.(type) {
-    case string:
-        bodyJson = []byte(body.(string))
+	// 判断入参类型
+	switch body.(type) {
+	case string:
+		bodyJson = []byte(body.(string))
 
-    default:
-        if body != nil {
-            var err error
-            bodyJson, err = json.Marshal(body) // 转成json格式
-            if err != nil {
-                log.Println(err)
-                return nil, errors.New("http post body to json failed")
-            }
-        }
-    }
+	default:
+		if body != nil {
+			var err error
+			bodyJson, err = json.Marshal(body) // 转成json格式
+			if err != nil {
+				log.Println(err)
+				return nil, errors.New("http post body to json failed")
+			}
+		}
+	}
 
-    //http.NewRequest() 方法返回一个 *http.Request 指针以及错误对象 err
-    request, err := http.NewRequest(http.MethodPost, url, bytes.NewBuffer(bodyJson))
-    if err != nil {
-        log.Println(err)
-        return nil, errors.New("new request is fail: %v \n")
-    }
-    // set固定数据到请求头
-    request.Header.Set("Content-type", "application/json")
-    request.Header.Set("cookie", configData.Header.Cookie)
+	//http.NewRequest() 方法返回一个 *http.Request 指针以及错误对象 err
+	request, err := http.NewRequest(http.MethodPost, url, bytes.NewBuffer(bodyJson))
+	if err != nil {
+		log.Println(err)
+		return nil, errors.New("new request is fail: %v \n")
+	}
+	// set固定数据到请求头
+	request.Header.Set("Content-type", "application/json")
+	request.Header.Set("cookie", configData.Header.Cookie)
 
-    // add params 查询参数
-    param := request.URL.Query()
-    if params != nil {
-        // 使用 for 循环遍历 map 类型的 params 中的数据，将其添加到 param 对象中，例如： url?param1=value1&param2=value2
-        for key, value := range params {
-            param.Add(key, value)
-        }
+	// add params 查询参数
+	param := request.URL.Query()
+	if params != nil {
+		// 使用 for 循环遍历 map 类型的 params 中的数据，将其添加到 param 对象中，例如： url?param1=value1&param2=value2
+		for key, value := range params {
+			param.Add(key, value)
+		}
 
-        //将查询参数编码为 URL 格式，并将编码后的字符串赋值给 request.URL.RawQuery 属性
-        request.URL.RawQuery = param.Encode()
-    }
+		//将查询参数编码为 URL 格式，并将编码后的字符串赋值给 request.URL.RawQuery 属性
+		request.URL.RawQuery = param.Encode()
+	}
 
-    // add header
-    if headers != nil {
-        for key, val := range headers {
-            request.Header.Add(key, val)
-        }
-    }
+	// add header
+	if headers != nil {
+		for key, val := range headers {
+			request.Header.Add(key, val)
+		}
+	}
 
-    // 发起请求
-    client := &http.Client{}
-    log.Printf("请求方式： %s  ｜ 请求URL : %s \n", http.MethodPost, request.URL.String())
-    res, err := client.Do(request)
-    // 格式化返回值
-    response, _ := util.ParseResponse(res)
+	// 发起请求
+	client := &http.Client{}
+	log.Printf("请求方式： %s  ｜ 请求URL : %s \n", http.MethodPost, request.URL.String())
+	res, err := client.Do(request)
+	// 格式化返回值
+	response, _ := util.ParseResponse(res)
 
-    jsonData, _ := json.Marshal(response)
+	jsonData, _ := json.Marshal(response)
 
-    log.Printf("响应数据： %s", string(jsonData))
+	log.Printf("响应数据： %s", string(jsonData))
 
-    return response, err
+	return response, err
 
 }
 

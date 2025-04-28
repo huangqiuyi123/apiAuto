@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"apiAuto/config"
+	"github.com/huangqiuyi123/apiAuto/config"
 	"github.com/tidwall/sjson"
 )
 

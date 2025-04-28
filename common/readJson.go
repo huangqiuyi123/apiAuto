@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"apiAuto/config"
+	"github.com/huangqiuyi123/apiAuto/config"
 )
 
 // Params 定义结构体，和json文件的字段一致
