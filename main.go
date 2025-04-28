@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	common.ExecuteDiscountActivity("pro")
+	common.ExecuteDiscountActivity("test")
 	//common.AddProduct("test")
 
 }
