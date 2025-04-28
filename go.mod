@@ -1,4 +1,5 @@
-module github.com/huangqiuyi123/apiAuto
+//module github.com/huangqiuyi123/apiAuto
+module github.com/huangqiuyi123/apiAuto/v2  // v2+ 版本必须加 /v2
 
 go 1.20
 
