@@ -1,4 +1,4 @@
-module apiAuto
+module github.com/huangqiuyi123/apiAuto
 
 go 1.20
 
