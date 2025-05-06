@@ -1,7 +1,7 @@
 package main
 
 import (
-	//"apiAuto/common"
+	//"create-activity-tools/common"
 	"github.com/huangqiuyi123/apiAuto/common"
 )
 

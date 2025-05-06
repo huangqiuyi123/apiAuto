@@ -4,7 +4,7 @@ package main
 //import (
 //	"reflect"
 //
-//	"apiAuto/common"
+//	"create-activity-tools/common"
 //)
 //
 //// func doPostWithAddActivity(AddActivity ){
